@@ -1,0 +1,21 @@
+.reviews {
+	padding: 110px 0 102px 0;
+	margin-bottom: 19px;
+}
+
+.reviews__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews__left {
+	flex: 0 1 50%;
+	padding-top: 37px;
+}
+
+.reviews__title {
+	margin-bottom: 81px;
+	text-align: left;
+}
+
+.reviews__right {}

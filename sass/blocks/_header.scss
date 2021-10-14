@@ -1,0 +1,65 @@
+.header {
+	padding-top: 62px;
+	padding-bottom: 757px;
+	background: $purpled;
+}
+
+.header__container {
+	max-width: 674px;
+}
+
+
+.header__column {}
+
+.header__title {
+	font-size: 55px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.56px;
+	color: $white;
+	margin-bottom: 26px;
+}
+
+.header__subtitle {
+	font-size: 16px;
+	line-height: 1.87;
+	text-align: center;
+	letter-spacing: 0.18px;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 48px;
+}
+
+.header__buttons {
+	display: flex;
+	justify-content: center;
+
+	&>*:not(:last-child) {
+		margin-right: 16px;
+	}
+}
+
+.header__button {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border: 1px solid #C3C1CB;
+	background-color: transparent;
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $white;
+	min-height: 54px;
+	padding: 0 37px;
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		background-color: $purplel;
+		border-radius: 6px;
+		border: 1px solid $purplel;
+	}
+}
+
+.image__top {
+	margin-top: -757px;
+}

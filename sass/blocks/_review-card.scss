@@ -1,0 +1,77 @@
+.review__card {
+	padding: 40px 53px 40px 40px;
+	background: #E8E5FB;
+	border-radius: 8px;
+	width: 596px;
+	margin-top: 40px;
+
+
+	&--02 {
+		background: #E8FAF3;
+	}
+
+	&--03 {
+		margin-top: 0;
+		background: #FDEBEE;
+	}
+
+	&--04 {
+		background: #E6F3FF;
+	}
+
+	&--05 {
+		background: #FFF5E1;
+	}
+}
+
+.review__profile {
+	display: flex;
+	align-items: center;
+	margin-bottom: 36px;
+}
+
+.review__profile-pic {
+	margin-right: 16px;
+}
+
+.profile-pic {
+	border-radius: 200px;
+}
+
+.review__name {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $purpled;
+}
+
+.review__nick {
+	font-size: 15px;
+	line-height: 1.6;
+	color: $gray;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.review__card-desc {
+	font-size: 17px;
+	line-height: 1.76;
+	letter-spacing: 0.18px;
+	color: $gray;
+}
+
+.review__post {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #100A30;
+	margin-top: 20px;
+	transition: opacity 0.2s ease-in;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
